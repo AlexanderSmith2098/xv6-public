@@ -93,5 +93,5 @@ sys_uptime(void)
 int
 sys_getsyscallinfo(void)
 {
-  return -1;
+  return myproc()->sci;
 }
